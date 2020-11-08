@@ -43,8 +43,8 @@ export const Expandable = (props: IProps) => {
         </Paragraph>
       </TitleBar>
       {isExpanded &&
-        props.items.map((item) => (
-          <ExpandableItem>
+        props.items.map((item, index) => (
+          <ExpandableItem key={index}>
             <Paragraph intent={props.intent}>{item}</Paragraph>
           </ExpandableItem>
         ))}

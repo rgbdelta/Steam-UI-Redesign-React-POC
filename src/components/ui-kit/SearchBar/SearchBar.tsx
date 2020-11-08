@@ -10,6 +10,10 @@ const SearchInput = styled.input`
   color: ${colors.textInverted};
   display: block;
   flex: 1 1;
+
+  ::placeholder {
+    font-style: italic;
+  }
 `;
 
 const Container = styled.div`

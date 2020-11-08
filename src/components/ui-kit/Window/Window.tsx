@@ -16,10 +16,7 @@ const Container = styled.div`
   width: 100%;
 `;
 const SidePanel = styled.div`
-  width: 250px;
-  padding: 30px;
-  overflow-y: scroll;
-  overflow-x: hidden;
+  width: 300px;
 `;
 const Content = styled.div`
   background-color: ${colors.backgroundDefault};
