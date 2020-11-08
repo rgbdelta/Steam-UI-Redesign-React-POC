@@ -1,12 +1,16 @@
 const palette = {
+  transparent: 'rgba(0,0,0,0)',
+  navyBlue: '#005cfb',
   blackPearl: '#13171a',
   blackPearlLight: '#1b232c',
   white: '#fff',
 };
 
 export const colors = {
+  backgroundTransparent: palette.transparent,
   backgroundDefault: palette.blackPearl,
-  backgroundPrimary: palette.blackPearlLight,
+  backgroundSecondary: palette.blackPearlLight,
+  backgroundPrimary: palette.navyBlue,
   textDefault: palette.blackPearlLight,
   textInverted: palette.white,
 };

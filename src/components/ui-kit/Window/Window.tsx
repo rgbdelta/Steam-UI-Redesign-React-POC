@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 import React from 'react';
-import { colors } from '../Colors';
+import { colors } from '../Constants/Colors';
 
 interface IProps {
   children: JSX.Element;
@@ -8,18 +8,22 @@ interface IProps {
 }
 const Container = styled.div`
   border-radius: 15px;
-  max-width: 600px;
-  backdrop-filter: blur(40px) contrast(95%);
+  backdrop-filter: blur(40px) contrast(90%) brightness(90%);
   display: flex;
   overflow: hidden;
-  box-shadow: 1px 8px 19px 6px #00000073;
+  box-shadow: 0px 3px 18px 5px #00000087;
+  height: 100%;
+  width: 100%;
 `;
 const SidePanel = styled.div`
+  width: 250px;
   padding: 30px;
+  overflow-y: scroll;
+  overflow-x: hidden;
 `;
 const Content = styled.div`
-  padding: 10px;
   background-color: ${colors.backgroundDefault};
+  flex: 1 1;
 `;
 
 // TODO: overflow clip?

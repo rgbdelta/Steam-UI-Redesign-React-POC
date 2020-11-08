@@ -1,8 +1,9 @@
 import React from 'react';
 import { Window } from '../../components/ui-kit/Window/Window';
+import { Content } from './components/Content/Content';
 import { SidePanel } from './components/SidePanel/SidePanel';
 
-const App = () => {
+const Main = () => {
   return (
     <Window sidePanel={SidePanel}>
       <Content />
@@ -10,8 +11,4 @@ const App = () => {
   );
 };
 
-const Content = () => {
-  return <div>Main Content</div>;
-};
-
-export default App;
+export default Main;

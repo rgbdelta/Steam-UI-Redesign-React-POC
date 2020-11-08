@@ -1,11 +1,23 @@
 import styled from '@emotion/styled';
-import { colors } from './Colors';
+import { colors } from './Constants/Colors';
 
-type TypographyIntent = 'default' | 'inverted';
+export type TypographyIntent = 'default' | 'inverted';
 
 interface IProps {
   intent?: TypographyIntent;
 }
+
+export const Heading2 = styled.div`
+  font-size: 20px;
+  color: ${(props: IProps) => {
+    switch (props.intent) {
+      case 'inverted':
+        return colors.textInverted;
+      default:
+        return colors.textDefault;
+    }
+  }};
+`;
 
 export const Heading3 = styled.div`
   font-size: 16px;
@@ -21,7 +33,7 @@ export const Heading3 = styled.div`
 `;
 
 export const Paragraph = styled.div`
-  font-size: 14px;
+  font-size: 13px;
   color: ${(props: IProps) => {
     switch (props.intent) {
       case 'inverted':

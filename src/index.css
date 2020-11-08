@@ -1,18 +1,32 @@
 #root {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-html {
-    height: 100%;
+body, html, #root {
+  width: 100%;
+  height: 100%;
 }
 
 body {
-    margin: 0;
-    height: 100%;
-    background-image: url(./assets/iceLake.jpg);
-    background-size: cover;
-    font-family: 'roboto'
+  padding: 100px;
+  min-width: 800px;
+  min-height: 800px;
+  box-sizing: border-box;
+  margin: 0;
+  background-image: url(./assets/iceLake.jpg);
+  background-size: cover;
+  font-family: 'roboto'
+}
+  
+*::-webkit-scrollbar {
+  width: 12px;
+}
+*::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0.1);
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #005cfb;
+  border-radius: 3px;
 }
