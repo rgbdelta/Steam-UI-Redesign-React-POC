@@ -65,7 +65,7 @@ const GameListsContainer = styled.div`
   flex: 1 1;
   mask-image: linear-gradient(to top, transparent 8%, black 25%, black 95%, transparent 100%);
   overflow-y: scroll;
-  padding: 15px 30px;
+  padding: 15px 30px 80px 30px;
 
   > div {
     margin: 0px 0px 15px 0px;

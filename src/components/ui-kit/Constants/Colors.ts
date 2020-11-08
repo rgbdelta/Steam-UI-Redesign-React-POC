@@ -4,6 +4,7 @@ const palette = {
   blackPearl: '#13171a',
   blackPearlLight: '#1b232c',
   white: '#fff',
+  blueZodiac: '#40434e',
 };
 
 export const colors = {
@@ -13,4 +14,5 @@ export const colors = {
   backgroundPrimary: palette.navyBlue,
   textDefault: palette.blackPearlLight,
   textInverted: palette.white,
+  textMuted: palette.blueZodiac,
 };
