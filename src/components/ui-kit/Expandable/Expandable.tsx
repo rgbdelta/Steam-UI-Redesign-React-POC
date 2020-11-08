@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 import React, { useState } from 'react';
 import { AiOutlineMinus } from 'react-icons/ai';
-import { colors } from '../Constants/Colors';
+import { colors } from '../constants/colors';
 import { Paragraph, TypographyIntent } from '../Typography';
 
 interface IProps {

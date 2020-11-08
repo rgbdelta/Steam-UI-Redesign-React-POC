@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 import React from 'react';
-import { colors } from '../Constants/Colors';
+import { colors } from '../constants/colors';
 
 const SearchInput = styled.input`
   background-color: rgba(0, 0, 0, 0.4);

@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 import React from 'react';
 import { CgClose, CgMaximize, CgMinimize } from 'react-icons/cg';
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
-import { colors } from '../../../../components/ui-kit/Constants/Colors';
+import { colors } from '../../../../components/ui-kit/constants/colors';
 import { Heading2 } from '../../../../components/ui-kit/Typography';
 
 const Container = styled.div`

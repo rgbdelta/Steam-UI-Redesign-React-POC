@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import { colors } from './Constants/Colors';
+import { colors } from './constants/colors';
 
 export type TypographyIntent = 'default' | 'inverted' | 'muted';
 

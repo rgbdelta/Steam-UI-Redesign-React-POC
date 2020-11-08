@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 import React from 'react';
-import { colors } from '../Constants/Colors';
+import { colors } from '../constants/colors';
 
 interface IProps {
   children: JSX.Element;
